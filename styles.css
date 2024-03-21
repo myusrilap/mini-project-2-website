@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  padding-bottom: 60px; /* Menambahkan padding ke bagian bawah halaman */
+}
+
+.navbar {
+  background-color: rgba(0, 2, 32, 0.8) !important;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.home {
+  background-color: whitesmoke;
+  margin-top: 60px; /* Menyesuaikan margin-top dengan tinggi navbar */
+  height: calc(100vh - 60px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.home .container {
+  margin-top: -100px; /* Menyesuaikan posisi vertikal teks */
+}
+
+.navbar-nav .nav-link {
+  color: white !important; 
+}
+.navbar-nav.btn{
+  color: white;
+}
+
+.navbar-brand {
+  color: white !important;
+  font-size: 3.5vh;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  color: black;
+  margin: 0 10px;
+  margin-bottom: 10px;
+  font-size: 50px;
+  justify-content: space-between;
+}
+
+.home h1 {
+  margin-bottom: 20px;
+}
+
+.home .lead {
+  margin-bottom: 40px;
+}
+
+.home .btn {
+  position: relative;
+  bottom: 0; /* Menyesuaikan posisi vertikal tombol */
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  color: black;
+  margin: 0 10px;
+  margin-bottom: 10px;
+}
+.social-icons :hover {
+  color: blue
+}
+
+.about-me {
+  background-color: whitesmoke;
+  padding-top: 60px; /* Menambahkan padding di atas section About Me */
+  padding-bottom: 60px; /* Menambahkan padding di bawah section About Me */
+}
+
+.about-me img {
+  max-width: 100%;
+  height: auto;
+  max-height: 450px; /* Mengatur tinggi maksimum gambar */
+  margin-bottom: 0; /* Mengatur jarak antara gambar dan teks */
+  filter: brightness(0.5) grayscale(40%);
+  position: relative; /* Menambahkan properti position */
+  top: -80px; /* Menyesuaikan posisi vertikal */
+}
+
+.about-me p {
+  text-align: justify;
+}
+
+.about-me .summary {
+  margin-top: 20px; /* Menurunkan posisi summary agar mendekati tengah */
+  margin-bottom: 30px; /* Menurunkan jarak antara summary dan elemen selanjutnya */
+  top: -1000px; 
+}
+.about-me .container {
+  padding-top: 0; /* Menghapus padding di atas konten dalam container About Me */
+  padding-bottom: 30px; /* Menambahkan padding di bawah konten dalam container About Me */
+  margin-top: 20px; /* Menyesuaikan margin atas */
+  margin-bottom: 100px; /* Menambahkan margin bawah untuk menjaga jarak dengan elemen selanjutnya */
+}
+
+.about-me .summary,
+.about-me p {
+  margin-top: -20px; /* Sesuaikan dengan nilai yang diinginkan */
+}
+
+.education {
+  background-color: whitesmoke;
+  padding-top: 100px; /* Sesuaikan dengan tinggi garis vertikal */
+}
+.timeline {
+  list-style: none;
+  padding: 0;
+}
+.timeline li {
+  position: relative;
+  padding-left: 20px; /* Jarak antara titik dan teks */
+  margin-bottom: 50px; /* Jarak antara titik-titik */
+}
+.timeline li .title {
+  font-weight: bold;
+}
+.timeline li .description {
+  margin-top: 5px;
+}
+.timeline li hr {
+  border-top: 2px solid #000; /* Warna garis horizontal */
+  margin-top: 25px; /* Jarak antara garis horizontal dengan teks */
+}
+#skills .col-lg-6,
+#skills .col-md-6 {
+  margin-bottom: 20px;
+}
+#skills{
+  background-color: whitesmoke;
+}
+#skills h2 {
+  margin-bottom: 30px; /* Sesuaikan dengan nilai yang diinginkan */
+}
+
+#skills .progress {
+  margin-top: 20px; /* Sesuaikan dengan nilai yang diinginkan */
+}
+#achievement .card {
+  margin-bottom: 20px; /* Menambahkan jarak di antara kartu-kartu prestasi */
+}
+#achievement{
+  background-color: whitesmoke;
+}
+
+#notification {
+  display: none;
+}
+
+#contact{
+  background-color: whitesmoke;
+}
+.btn-dark-mode,
+.btn-light-mode {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+.btn-dark-mode {
+  background-color: #343a40;
+  color: white;
+}
+
+.btn-light-mode {
+  background-color: #f8f9fa;
+  color: #343a40;
+}
